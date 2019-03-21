@@ -12,7 +12,7 @@ function frameIt() {
 
 function pressIt() {
   $('#typing').on('keydown', function(key) {
-    if (key.which == 103) {
+    if (key.which == 71) {
       window.alert("g key submission")
     }
   })
