@@ -11,8 +11,8 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('#typing').on('keydown', function() {
-    if ($("input:typing").val() === "g") {
+  $('#typing').on('keydown', function(key) {
+    if (key.which == 103) {
       window.alert("g key submission")
     }
   })
