@@ -12,8 +12,8 @@ function frameIt() {
 
 function pressIt() {
   $('input').on('keydown', function(key) {
-    if (key === "G") {
-      window.alert("You pressed the g key")
+    if (key === "g") {
+      alert("g key submission")
     }
   })
 }
